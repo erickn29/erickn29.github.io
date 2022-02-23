@@ -1,3 +1,33 @@
 body{
-    background-color: #e2e2e2;
+    background-color: #161616 !important;
+    min-height: 500px;
+}
+
+.navbar-brand{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10vmax;
+    font-weight: 800;
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #ff00d0, #00d0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block{
+    margin-top: 50px;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.bio{
+    justify-content:center;
+    text-align:center;
+}
+
+.text {
+    color: #adadad;
+    margin-top: 20px;
+    font-size: 20px;
 }
