@@ -10,7 +10,7 @@
     <title>Yaroslav Novikov</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Yaroslav Novikov</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,29 +19,71 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Обо мне</a>
+                <a class="nav-link" aria-current="page" href="#bio">Обо мне</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Что умею</a>
+                <a class="nav-link" href="#ido">Что умею</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Мои проекты</a>
+                <a class="nav-link" href="#projects">Мои проекты</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ftr">Контакты</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    <div class="container-fluid">
+    <div class="container-fluid section" id='bio'>
         <div class="container block">
             <div class="row col-sm-12">
                 <div class="bio">
                     <img src="img/face.jpg" alt="" style="width: 250px;" class="round">
                     <div class="text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit modi molestias laboriosam, porro atque eum consequatur molestiae placeat illo at nisi, repudiandae sed sint. Ex laborum iusto quaerat quibusdam.
+                        Добрый день! Мое имя Ярослав и я Python разработчик. <br>Мне 33 года, живу в России, 
+                        город Архангельск. Женат, есть сын. <br>Увлекаюсь разработкой ботов, скрапперов и сайтов. 
+                        <br>Еще люблю поиграть в компьютерные игры, играю на гитаре, люблю футбол.
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="container-fluid section" id='ido'>
+      <div class="container block">
+          <div class="row col-sm-12">
+              <div class="ido-block">
+                  С языком программирования Python я познакомился в середине 2020.<br>
+                  Начал свое обучение с книги "Как устроен Python", решал задачи на сайте stepik и codewars.<br>
+                  Занимался самостоятельно, уделяя обучению 3-6 часов в день.<br><br>
+                  
+                  В настоящее время, помимо самого языка, владею следующими наыками/технологиями:<br><br>
+
+                  - создание веб-приложений с использованием фреймворка <b>Django</b><br>
+                  - скраппинг сайтов с помощью библиотек <b>Requests</b> и <b>BeautifulSoup</b><br>
+                  - навыки работы с базами данных, в частности <b>SQLite</b><br>
+                  - опыт работы с <b>API</b><br>
+                  - работаю с системой контроля версий <b>GitHub</b><br>
+                  - понимаю принципы <b>ООП</b><br>
+                  - умею работать с файловой и операционной системой по средствам языка Python
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid section" id='projects'>
+    <div class="container block">
+        <div class="row col-sm-12">
+            <div class="projects-block text">
+                В настоящий момент все проекты в стадии разработки<br>
+                <a href='https://github.com/erickn29'><b>GitHub</b></a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+  <div class="ftr section" id='ftr'>
+    <a href="https://t.me/imqwerty"><img src="https://cdn3.iconfinder.com/data/icons/social-media-chamfered-corner/154/telegram-512.png">Telegram</a>
+    <a href="https://vk.com/pywayru"><img src="https://jnj.ru/wp-content/themes/twice/static/img/general/vk-icon.png" style="margin-left: 15px;">VK</a>  
+  </div>
+</footer>
 </body>
 </html>
